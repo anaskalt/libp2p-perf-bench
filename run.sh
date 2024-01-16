@@ -42,7 +42,7 @@ for Protocol in ${TransportSecurityProtocols[*]}
 do
     echo
     echo "## Transport security $Protocol"
-    ./golang/go-libp2p-perf --server-address /ip4/127.0.0.1/tcp/9992/p2p/Qmcqq9TFaYbb94uwdER1BXyGfCFY4Bb1gKozxNyVvLvTSw --transport-security $Protocol
+    ./golang/go-libp2p-perf --server-address /ip4/127.0.0.1/tcp/9992/p2p/QmbvLAFb3aYAgRXMrLJW436sJFtikBP8CJmiQZ8ozaG4uQ --transport-security $Protocol
 done
 
 echo

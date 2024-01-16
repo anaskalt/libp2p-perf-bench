@@ -32,6 +32,13 @@ corresponding bandwidth on stdout.
 ## Getting started
 
 ```bash
+$ make clean
+
+#if you want you can make a new key pair
+$ rm rust/test.pk8
+$ make rust/test.pk8
+
+#And finally build rust/go client and server
 $ make
 
 
