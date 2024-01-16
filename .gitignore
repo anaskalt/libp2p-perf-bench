@@ -1,0 +1,8 @@
+# Ignore go-libp2p-perf binary
+golang/go-libp2p-perf
+
+# Ignore Rust Cargo lock file
+rust/Cargo.lock
+
+# Ignore Rust target directory
+rust/target/
